@@ -1,13 +1,18 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { TicTacToeGame } from '@/components/TicTacToeGame';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <>
+      <head>
+        <title>Tic-Tac-Toe Game - Play Human vs Human or vs AI</title>
+        <meta name="description" content="Play the classic Tic-Tac-Toe game with beautiful graphics. Choose between Human vs Human or challenge AI with Easy and Hard difficulty levels. Features minimax algorithm for unbeatable AI." />
+        <meta name="keywords" content="tic-tac-toe, game, AI, minimax, human vs human, puzzle game, strategy game" />
+        <link rel="canonical" href="/" />
+      </head>
+      <main>
+        <TicTacToeGame />
+      </main>
+    </>
   );
 };
 
