@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+Tic-Tac-Toe Game 🎮
 
-## Project info
+A simple and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript.
+This project supports both Human vs Human and Human vs AI modes, with two difficulty levels for the AI.
 
-**URL**: https://lovable.dev/projects/ddbcf765-97be-45b9-95f2-77f1ce5aedd6
+Features ✨
 
-## How can I edit this code?
+Game Modes:
 
-There are several ways of editing your application.
+Human vs Human (two players take turns).
 
-**Use Lovable**
+Human vs AI (single player vs computer).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ddbcf765-97be-45b9-95f2-77f1ce5aedd6) and start prompting.
+AI Difficulty Levels:
 
-Changes made via Lovable will be committed automatically to this repo.
+Easy Mode: AI makes random moves and simple mistakes (human can win).
 
-**Use your preferred IDE**
+Hard Mode: AI uses the minimax algorithm to play optimally (unbeatable).
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Gameplay UI:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Clean 3x3 grid board.
 
-Follow these steps:
+Highlights winning combinations.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Displays result messages: Win, Loss, or Draw.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Restart button to reset the game without refreshing.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Responsive Design:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Works smoothly on desktop and mobile.
 
-**Edit a file directly in GitHub**
+Includes hover effects and simple animations.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Technologies Used 🛠️
 
-**Use GitHub Codespaces**
+HTML5 for structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+CSS3 (with responsive design & styling)
 
-## What technologies are used for this project?
+JavaScript (ES6) for game logic and AI
 
-This project is built with:
+How to Run 🚀
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Download or clone this repository:
 
-## How can I deploy this project?
+git clone <your-repo-url>
+cd tic-tac-toe
 
-Simply open [Lovable](https://lovable.dev/projects/ddbcf765-97be-45b9-95f2-77f1ce5aedd6) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+Open index.html in your browser.
 
-Yes, you can!
+Start playing! 🎉
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Future Improvements 🔮
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Add a scoreboard for multiple rounds.
+
+Add sound effects when placing moves or winning.
+
+Explore reinforcement learning for AI as an experiment.
+
+✅ This project was built as part of my AI coursework, to demonstrate concepts of agents, rational decision-making, and search algorithms in a fun and practical way.
